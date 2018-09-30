@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.soulmatefurnitures.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chair" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08164114571" />
+
+
+    <TextView
+        android:drawableLeft="@drawable/ic_mail_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email: soulmatef@gmail.com" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operation"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="true" />
+    <TextView
+        android:drawableLeft="@drawable/ic_assessment_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We deal in all kinds of furniture work. We give your homes and offices the master touch." />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opening Hours"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="true"/>
+    <TextView
+        android:drawableLeft="@drawable/ic_timer_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon-Fri (8am to 4pm)" />
+    </LinearLayout>
+
+</LinearLayout>
